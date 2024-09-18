@@ -2,6 +2,7 @@
 
 :root {
   --primary-color:rgba(31, 31, 31, 1);
+  --ribbon-color:rgba(31, 31, 31, 0.6);
   --text-dark: #242424;
   --text-light: #e2e8f0;
   --white: #ffffff;
@@ -71,6 +72,7 @@ nav {
 .header__container {
   padding-top: 2rem;
   position: relative;
+  overflow:hidden;
 }
 
 .header__container img {
@@ -88,7 +90,7 @@ nav {
   width: 100%;
   display: flex;
   justify-content: flex-end;
-  background-color: var(--primary-color);
+  background-color: var(--ribbon-color);
   border-radius: 5px;
 }
 
@@ -595,11 +597,12 @@ footer {
   .nav__links {
     display: none;
   }
-
-  .header__ribbon {
-    background-color: rgba(92, 108, 121, 0.7);
-  }
-
+  
+  .header__container{
+  margin-top: 70px;
+  margin-left: 0px;
+ }
+  
   .arrow__down {
     display: none;
   }
