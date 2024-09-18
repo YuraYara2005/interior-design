@@ -271,6 +271,10 @@ nav {
     height: 50vh; 
   }
 
+  .left-column img{
+    height: 40vh;
+  }
+
   .right-column {
     min-width: 100%;
   }
